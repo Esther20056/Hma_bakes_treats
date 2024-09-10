@@ -15,13 +15,18 @@ function Navbar() {
        <div className="nav-cupcake">
           <img src={Hma} alt="" />
         </div>
-         <div className="hamburger" onClick={() =>{
+         <div className={`hamburger ${barsOpen ? 'hidden' : ''}`} onClick={() =>{
           setBarsOpen(!barsOpen);
          }}>
           <span></span>
           <span></span>
           <span></span>
          </div>
+         {barsOpen && (
+        <button className="cancel-button" onClick={() => setBarsOpen(false)}>
+          <strong className='times'>&times;</strong>
+        </button>
+      )}
    <div className="wrapper">
         <ul id='nav-menu'className={barsOpen ? 'open' : ""}>
           <li onClick={() =>{setMenu("home")}}><NavLink to='/'>Home</NavLink>{menu==="home"?<hr/>:<></>}</li>
@@ -50,7 +55,6 @@ function Navbar() {
           <li onClick={() =>{setMenu("pastries")}}><NavLink to='/pastries'>Pastries</NavLink>{menu==="pastries"?<hr/>:<></>}</li>         
           <li onClick={() =>{setMenu("sameday")}}><NavLink to='/sameday'>Same day&nbsp;Cakes</NavLink>{menu==="sameday"?<hr/>:<></>}</li>
           <li onClick={() =>{setMenu("gifts")}}><NavLink to ='/gifts'>Gifts</NavLink>{menu==="gifts"?<hr/>:<></>}</li>
-         {/* <li><Link style={{textDecoration: "none"}} to='/register'>Login</Link></li> */}
           <li onClick={() =>{setMenu("login")}}><Link to='/login'>Register</Link>{menu==="login"?<hr/>:<></>}</li>
            <li><Link className='cart' to ='/cart'><img src={carto} alt="" /></Link></li>
           <div className="nav-cart-count">{getTotalCartItems()}</div>

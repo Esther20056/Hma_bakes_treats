@@ -68,10 +68,11 @@
     color: #acf4ac; 
 }
 
-@media (min-width: 0px) and (max-width: 450px) {
-    .treats  img {
-        height:100%;
-        width: 100%;
+@media (max-width: 450px) {
+    .treats img {
+        height: 80vh; /* This sets the image height to 80% of the viewport height */
+        width: 100vw;  /* This ensures the image takes the full width of the container */
+        object-fit: cover; /* This maintains the aspect ratio and covers the container, cropping if necessary */
     }
     .treats {
         padding-top: 6rem;
