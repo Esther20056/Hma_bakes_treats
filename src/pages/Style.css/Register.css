@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.register{
+    background: #fbf8f8;
+    min-height: 65rem;
+    min-width: 100%;
+    padding-top: 13rem;  
+}
+#red{ 
+    background: #f799f7;
+    max-width: 40%;
+    min-height: 20%;
+    margin: auto;
+    padding-left: 2.2rem;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap:2.2rem;
+}
+.login input{
+    height: 30%;
+    width: 90%;
+    border: 3px solid #d41dd4;
+    background: #f799f7;
+    outline: none;
+    color: #000;    
+    margin: 0.4rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+ } 
+ .login label{
+    font-size: 1.5rem;
+    font-weight: 500;
+ }
+ #reg{
+    width: 90%;
+    height: 4rem;
+    color: #64e864;
+    margin-top:10px ;
+    background: #de6ede;
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.login .signin{
+    display: flex;
+    margin-top: -1rem;
+    gap: 0.4rem;
+}
+.login .signin a{
+    text-decoration: none;
+    color: #fffdd0;
+}
+.login .signin a:hover{
+    color: #d41dd4;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    #red{ 
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+    .login label{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    #red{ 
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+    .login label{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+    #red{ 
+        max-width: 60%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    #red{ 
+        max-width: 60%;
+    }
+}

@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.treats {
+    text-transform: capitalize;
+    padding-top: 6.2rem;
+}
+ .treats .slide-btn{
+    display: none;
+}
+.treats .carousel-indicators li{
+    background-color: #6e116e;
+    height: 0.3rem;
+}
+.treats  img {
+    height:84vh;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+}
+/* slide one */
+.carousel-boby .treats-b {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6.5rem;
+    gap: 1.3rem;
+    line-height: 1;
+    position: absolute;
+    bottom: 17%;
+}
+.carousel-boby .treats-b h2 {
+    font-size: 4rem;
+    color: #acf4ac;
+}
+.carousel-boby .treats-b h3 {
+    color: #acf4ac;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+.carousel-boby .treats-b-btn {
+    height: 3.6rem;
+    width: 10.7rem;
+    border: 3px solid #58eb58;
+    border-radius: 3rem;
+    background: #acf4ac;
+    color: #f799f7;
+    font-size: 1.6rem;
+    text-align: center;
+}
+ .slide-two .treats-b h3, h2{
+    font-family: "Open Sans", sans-serif;
+    color: #6e116e;
+    font-size: 3.5rem;
+    font-style: italic;
+    line-height: 1.4;
+    font-weight: 700;
+ }
+
+.slide-two .carousel-boby .treats-b-btn{
+    border: 3px solid #6e116e;
+    background: #f799f7 ;
+    color: #acf4ac; 
+}
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .treats  img {
+        height:100%;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom:2%;
+        gap: 0.5rem;
+        line-height: 0.7;
+        padding-left: 2rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 1.5rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 0.9rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 1.2rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 2rem;
+        width: 4.7rem;
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+     }
+}
+@media (min-width: 450px) and (max-width: 556px) {
+    .treats  img {
+        height:100%;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom: 3%;
+        gap: 0.5rem;
+        line-height: 0.7;
+        padding-left: 2rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 1.7rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 1.2rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 1.4rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 2.5rem;
+        width: 5.7rem;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+     }
+}
+
+@media (min-width: 556px) and (max-width: 688px) {
+    .treats  img {
+        height:100%;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom: 9.5%;
+        gap: 0.5rem;
+        line-height: 0.7;
+        padding-left: 2.5rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 2.3rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 1.4rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 1.8rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 2.8rem;
+        width: 6.7rem;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+     }
+}
+@media (min-width: 688px) and (max-width: 800px) {
+    .treats  img {
+        height:80vh;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom: 10%;
+        gap: 0.8rem;
+        line-height: 0.8;
+        padding-left: 3rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 2.7rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 1.6rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 2.3rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 3rem;
+        width: 7.7rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+     }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+    .treats  img {
+        height:80vh;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom: 10%;
+        gap: 0.8rem;
+        line-height: 1;
+        padding-left: 4rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 3.1rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 2rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 2.7rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 3.2rem;
+        width: 8.7rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+     }
+}
+@media (min-width: 1450px){ 
+    .carousel-boby .treats-b {
+        padding-top: 9rem;
+    }
+    .carousel-boby .treats-b h2 {
+        font-size: 5rem;
+    }
+    .carousel-boby .treats-b h3 {
+        font-size: 3.2rem;
+    }
+    .slide-two .treats-b  h3{
+        font-size: 4rem;
+     }
+
+}
+  

@@ -1,0 +1,24 @@
+.describe{
+    background: fixed;
+    background: #ffc2ff;
+    height: 100vh;
+    margin-top: -15rem;
+}
+.Description h1{
+    font-size: 2rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    color: #000;
+    text-decoration: underline;
+}
+.nav-men{
+    margin-top: 1rem;
+   font-size: 1.3rem;
+   gap: 30px;
+   margin-left: 2rem;
+   color: #000;
+   font-weight: 400;
+}
+
+
+

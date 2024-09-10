@@ -1,0 +1,7 @@
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .special{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

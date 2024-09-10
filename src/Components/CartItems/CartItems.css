@@ -1,0 +1,87 @@
+.cartitems{
+    padding: 100px 170px;
+    cursor: pointer; 
+    background-color: #fffafa;
+    margin-top: 6rem;
+}
+.cartitems hr{
+    height: 3px;
+    background: #f799f7;
+    border: 0;
+}
+
+#cy{
+    display:grid ;
+    grid-template-columns: 10rem 20rem 6rem 8rem 8rem 8rem ;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#rest{
+    display: grid;
+    grid-template-columns:10rem 17rem 4.5rem 6rem 6rem 6rem ;
+    gap: 50px;
+    padding: 20px 0px;
+    color: rgb(183, 75, 183);
+    font-size: 1.5rem;
+    font-weight: 500; 
+}
+.cartitems div{
+    font-size: 20px;
+}
+#treat{
+    height: 100px;
+    width: 90px;
+}
+.cart-quantity{
+    width: 7rem;
+    height: 3rem;
+    background: #fff;
+    border: 1px solid #f799f7;
+}
+#cart{
+    display: flex;
+   margin: 10rem 0rem;
+}
+.total{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 200px;
+}
+.total p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.total-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+#velvet{
+    width: 300px;
+    height: 85px;
+    margin-left: 24rem;
+    font-size: 2rem;
+    background:#8df18d;
+    outline: none;
+    border:5px solid #168d16;;
+    margin-top: 4rem;
+}
+#sensation{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: -2rem;
+}
+#lol{
+    gap: 1rem;
+    margin-top: -3rem;
+    font-size: 3rem;
+}

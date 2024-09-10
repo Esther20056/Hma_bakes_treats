@@ -1,0 +1,29 @@
+.relateditems{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: -19rem;
+   background: #ffc2ff;
+   
+}
+.relateditems h1{
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-left: 3rem;
+}
+
+.relatedproducts{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 6px;
+    margin-left: 7rem;
+}
+
+ /* Media Screen for Special */
+ /* @media screen and (max-width: 500px){
+    .relateditems{
+        width: min-content;
+    } */
+ /* } */

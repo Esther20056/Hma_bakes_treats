@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.display{
+    width: 100%;
+    background: #ffc2ff;
+   padding: 12rem 4rem 6rem 4rem;
+}
+.main-display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+}
+.display-one{
+  flex-basis: 50%;
+  display: flex;
+  gap: 2rem;
+}
+.display-two .layers_description{
+    max-width: 17%;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.display-two h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.display-img-list img{
+    height: 9rem;
+    width: 9rem;
+    margin:2rem;
+    opacity: 65%; 
+    display: flex;
+    flex-direction: column;
+}
+.display-img img{
+    width: 25rem;
+    height: 25rem;
+    object-fit: contain;
+}
+.display-one img:hover{
+    transform: rotateY(340deg);
+    transition: 8s ease;
+}
+.display-two{
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    text-transform: capitalize;
+    gap: 0.3rem;
+}
+.display-one-current-price{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.display-description{
+    font-size: 1.2rem;
+    font-weight: 500;
+} 
+.form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.form label{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.2rem 0;
+}
+.form input, .layers{
+    width: 25rem;
+    height: 4rem;
+    border: 2px solid #000;
+    outline: none;
+    background: #fcebfc;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+}
+.display-two button{
+     width: 300px;
+     height: 75px;
+     font-size: 2rem;
+     color: #000;
+     background: #8df18d;
+     font-weight: 500;
+     border: 5px solid #168d16;
+     outline: none;
+     margin: 1.5rem 4.5rem ;
+ }
+ .display-one-category{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.display-two-category{
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Media screens */
+@media (min-width: 0px) and (max-width: 360px) {
+    .display{
+       padding: 10rem 0rem 6rem 0rem;
+    }
+    .display-one{
+        flex-basis: 100%;
+    }
+    .display-img-list img{
+        display: none;
+    }  
+    .display-two{
+        flex-basis: 100%;
+        text-align: center;    
+    }
+    .display-two h1{
+        font-size: 1.3rem;
+    }
+    .display-img img{
+        max-width: 85%;
+        height: 16rem;
+        margin:auto;
+    }
+    .display-two .layers_description{
+        max-width: 23%;
+        margin: auto;
+    }
+    .display-one-current-price{
+        font-size: 1.2rem;
+    }
+    .display-description{
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    .form input, .layers{
+        width: 90%;
+        margin:auto;
+    }
+    .display-two button{
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .display-one-category{
+        font-size: 0.9rem;
+        padding:0 0.8rem;
+    }
+    .display-two-category{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 360px) and (max-width: 560px) {
+    .display{
+       padding: 10rem 0rem 6rem 0rem;
+    }
+    .display-one{
+        flex-basis: 100%;
+        padding: auto;
+    }
+    .display-img-list img{
+        display: none;
+    }  
+    .display-two{
+        flex-basis: 100%;
+        text-align: center;    
+    }
+    .display-two h1{
+        font-size: 1.3rem;
+    }
+    .display-img img{
+        max-width: 85%;
+        height: 16rem;
+        margin:auto;
+    }
+    .display-two .layers_description{
+        /* max-width: 23%; */
+        flex-basis: 20%;
+        background-color: #168d16;
+        margin: auto;
+    }
+    .display-one-current-price{
+        font-size: 1.2rem;
+    }
+    .display-description{
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    .form input, .layers{
+        width: 90%;
+        margin:auto;
+    }
+    .display-two button{
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .display-one-category{
+        font-size: 0.9rem;
+        padding:0 0.8rem;
+    }
+    .display-two-category{
+        font-size: 0.9rem;
+    }
+}
