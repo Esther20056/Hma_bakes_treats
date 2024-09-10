@@ -70,9 +70,8 @@
 
 @media (max-width: 450px) {
     .treats img {
-        height: 80vh; /* This sets the image height to 80% of the viewport height */
-        width: 100vw;  /* This ensures the image takes the full width of the container */
-        object-fit: cover; /* This maintains the aspect ratio and covers the container, cropping if necessary */
+        height: 100%; 
+        width: 100%;  
     }
     .treats {
         padding-top: 6rem;
