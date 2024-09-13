@@ -12,11 +12,11 @@
     display: none;
 }
 .treats .carousel-indicators li{
-    background-color: #6e116e;
+    background-color: #58eb58;
     height: 0.3rem;
 }
 .treats  img {
-    height:84vh;
+    height:87vh;
     width: 100vw;
     object-fit: cover;
     position: relative;
@@ -33,27 +33,17 @@
     position: absolute;
     bottom: 17%;
 }
-.carousel-boby .treats-b h2 {
-    font-size: 4rem;
-    color: #acf4ac;
-}
-.carousel-boby .treats-b h3 {
-    color: #acf4ac;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: 500;
-}
 .carousel-boby .treats-b-btn {
-    height: 3.6rem;
-    width: 10.7rem;
+    height: 3.5rem;
+    width: 10rem;
     border: 3px solid #58eb58;
     border-radius: 3rem;
     background: #acf4ac;
-    color: #f799f7;
+    color: #6e116e;
     font-size: 1.6rem;
     text-align: center;
 }
- .slide-two .treats-b h3, h2{
+ .slide-two .treats-b h3, .slide-one .treats-b h3{
     font-family: "Open Sans", sans-serif;
     color: #6e116e;
     font-size: 3.5rem;
@@ -61,10 +51,12 @@
     line-height: 1.4;
     font-weight: 700;
  }
-
+ .slide-one .treats-b h3{
+    color: #acf4ac;
+ }
 .slide-two .carousel-boby .treats-b-btn{
-    border: 3px solid #6e116e;
-    background: #f799f7 ;
+    border: 3px solid #58eb58;
+    background: #6e116e;
     color: #acf4ac; 
 }
 
@@ -74,24 +66,21 @@
         width: 100%;  
     }
     .treats {
-        padding-top: 6rem;
+        padding-top: 6.2rem;
+    }
+    .carousel-boby{
+        flex-basis: 80%;
     }
     .carousel-boby .treats-b {
         bottom:2%;
         gap: 0.5rem;
         line-height: 0.7;
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
-    .carousel-boby .treats-b h2 {
-        font-size: 1.5rem;
-    }
-    .carousel-boby .treats-b h3 {
-        font-size: 0.9rem;
-    }
-    .slide-two .treats-b  h3{
+    .slide-two .treats-b  h3, .slide-one .treats-b  h3{
         font-size: 1.2rem;
      }
-     .carousel-boby .treats-b-btn {
+     .carousel-boby .treats-b-btn{
         height: 2rem;
         width: 4.7rem;
         font-size: 0.7rem;

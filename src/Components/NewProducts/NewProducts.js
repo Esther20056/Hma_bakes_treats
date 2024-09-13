@@ -5,21 +5,29 @@ import Items from '../Items/Items';
 import axios from 'axios';
 
 function NewProducts() {
-    const { id } = useParams();
     const [data, setData] = useState([]);
-
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+  
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await axios.get('http://localhost:8000/newbakes/');
-                setData(response.data);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        };
-
-        fetchData();
-    }, [id]);
+      const fetchData = async () => {
+        try {
+          const response = await axios.get('http://localhost:8000/cake/cakecategoryIdentifier/newbakes/');
+          setData(response.data);
+        } catch (error) {
+          setError('Error fetching data');
+          console.error('Error fetching data:', error);
+        } finally {
+          setLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
+  
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>{error}</div>;
+  
 
     return (
         <div className='newproducts'>

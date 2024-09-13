@@ -6,8 +6,8 @@
 }
 .display{
     width: 100%;
-    background: #ffc2ff;
-   padding: 12rem 4rem 6rem 4rem;
+    background: #f0f0f0;
+   padding: 12rem 4rem 0rem 4rem;
 }
 .main-display{
     display: flex;
@@ -91,15 +91,11 @@
      outline: none;
      margin: 1.5rem 4.5rem ;
  }
- .display-one-category{
+ .display-one-category, .display-two-category{
     font-size: 1rem;
     font-weight: 600;
 }
 
-.display-two-category{
-    font-size: 1rem;
-    font-weight: 600;
-}
 /* Media screens */
 @media (min-width: 0px) and (max-width: 360px) {
     .display{

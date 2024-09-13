@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import './Treats.css'
-import firstSlide from '../Assets/firstSlide.png'
-import secondSlide from '../Assets/secondSlide.png'
+import PurpleBanner from '../Assets/PurpleBanner.png'
+import GreenBanner from '../Assets/GreenBanner.png'
+import WhiteBanner from '../Assets/WhiteBanner.png'
 
 function Treats() {
   return (
@@ -20,33 +21,51 @@ function Treats() {
             data-bs-slide-to="1"
             aria-label="Second slide"
           ></li>
+           <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active slide-one">
             <img
-              src={firstSlide}
+              src={PurpleBanner}
               alt="First slide"
             />
             <div className="carousel-boby">
               <div className="treats-b">
-                <h2>Confectionery shop</h2>
-                <h3>Sameday cake and pastries <br />delivery in Lagos </h3>
+                {/* <h3>Exquisite treats <br /> and special gifts available</h3> */}
+                {/* <h3>Sweet sensations, expertly crafted in Lagos.</h3> */}
+                <h3>Sweet sensations <br /> crafted in Lagos</h3>
                 <button className="treats-b-btn">Shop now</button>
               </div>
             </div>
           </div>
           <div class="carousel-item slide-two">
             <img
-              src={secondSlide}
+              src={GreenBanner}
               alt="Second slide"
             />
             <div className="carousel-boby">
               <div className="treats-b">
-                <h3>Unforgettable sweetness <br />you'll keep craving for</h3>
+                <h3>Unforgettable sweetness <br/>you'll keep craving for</h3>
                 <button className="treats-b-btn">Shop now</button>
               </div>
               </div>
           </div>    
+          <div class="carousel-item slide-two">
+            <img
+              src={WhiteBanner}
+              alt="Third slide"
+            />
+            <div className="carousel-boby">
+              <div className="treats-b">
+                <h3>Hma Bakes & Treats <br /> Stunning flowers and gifts.</h3>
+                <button className="treats-b-btn">Shop now</button>
+              </div>
+              </div>
+          </div> 
             </div>
             <button
               class="carousel-control-prev slide-btn"

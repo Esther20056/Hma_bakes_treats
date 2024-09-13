@@ -61,7 +61,23 @@
 .login .signin a:hover{
     color: #d41dd4;
 }
-
+.error-message{
+    color: var(--textforburgundy);
+}
+.password-container {
+    position: relative;
+  }
+  
+  .password-visibility-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
 @media (min-width: 0px) and (max-width: 576px) {
     #red{ 
         max-width: 100%;
