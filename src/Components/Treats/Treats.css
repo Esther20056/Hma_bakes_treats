@@ -59,9 +59,29 @@
     background: #6e116e;
     color: #acf4ac; 
 }
-@media (max-width: 350px) {
+@media (min-width: 0px) and (max-width: 350px) {
+    .treats  img {
+        height:100%;
+        width: 100%;
+    }
+    .treats {
+        padding-top: 6rem;
+    }
+    .carousel-boby .treats-b {
+        bottom:2%;
+        gap: 0.5rem;
+        line-height: 0.7;
+        padding-left: 1rem;
+    }
     .slide-two .treats-b  h3, .slide-one .treats-b  h3{
-        font-size: 1.1rem;
+        font-size: 1rem;
+     }
+     .carousel-boby .treats-b-btn {
+        height: 2rem;
+        width: 4.7rem;
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
      }
 }
 @media (min-width: 350px) and (max-width: 450px) {
@@ -82,7 +102,7 @@
         padding-left: 1rem;
     }
     .slide-two .treats-b  h3, .slide-one .treats-b  h3{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
      }
      .carousel-boby .treats-b-btn{
         height: 2rem;
