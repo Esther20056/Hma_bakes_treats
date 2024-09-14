@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +29,7 @@
     font-weight: 500;
     position: relative;
 }
+
 .special h3::after{
     content: "";
     width: 4rem;
@@ -73,6 +74,7 @@
     }
     .special p {
         font-size: 0.8rem;
+        text-align: center;
     }
     .special h3 {
         font-size: 1.2rem;
@@ -89,9 +91,7 @@
         width: 5rem;                         
         left: 25%;
     }
-    /* .special-c img{
-        margin-left: 3rem;
-    } */
+  
     .special-c h3 {
         margin-left: 6rem;
     }    
@@ -179,4 +179,143 @@
          margin-left: 4rem;
      }    
   
- } 
+ }  */
+
+ /* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .special {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3px;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  
+  .special img {
+    margin-top: 2rem;
+    width: 18rem; 
+    max-width: 18rem; 
+    height:18rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #c129c1 4px solid;
+  }
+  
+  .special h3 {
+    font-size: 2rem;
+    color: #c129c1;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .special h3::after {
+    content: "";
+    width: 4rem;
+    height: 0.2rem;
+    background-color: #c129c1;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.2rem;
+  }
+  
+  .special p {
+    color: #c129c1;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 360px) {
+    .special img {
+      max-width: 10rem;
+      height: 10rem;
+    }
+    
+    .special p{
+      font-size: 0.5rem;
+    }
+    
+    .special h3 {
+      font-size: 1.2rem;
+    }
+    
+    .special h3::after {
+      width: 3rem;
+      bottom: -15%;
+    }
+    .special-c img{
+        margin-left: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 361px) and (max-width: 576px) {
+    .special {
+      flex-direction: column;
+      align-items: center; /* Center items in column layout */
+    }
+    
+    .special img {
+      max-width: 12rem;
+    }
+    
+    .special p {
+      font-size: 1rem;
+    }
+    
+    .special h3 {
+      font-size: 1.3rem;
+    }
+    
+    .special h3::after {
+      width: 3rem;
+      bottom: -10%;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .special img {
+      max-width: 14rem;
+    }
+    
+    .special p {
+      font-size: 1.2rem;
+    }
+    
+    .special h3 {
+      font-size: 1.5rem;
+    }
+    
+    .special h3::after {
+      width: 3.4rem;
+      bottom: -10%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .special img {
+      max-width: 18rem;
+    }
+    
+    .special p {
+      font-size: 1.3rem;
+    }
+    
+    .special h3 {
+      font-size: 2rem;
+    }
+    
+    .special h3::after {
+      width: 4rem;
+    }
+  }
+  
