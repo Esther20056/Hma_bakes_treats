@@ -236,13 +236,16 @@
   }
   
   @media (max-width: 360px) {
+    .special{
+        flex-direction: column;
+    }
     .special img {
       max-width: 10rem;
       height: 10rem;
     }
     
     .special p{
-      font-size: 0.5rem !important;
+      font-size: 1rem !important;
     }
     
     .special h3 {
