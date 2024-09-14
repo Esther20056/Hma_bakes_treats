@@ -59,8 +59,12 @@
     background: #6e116e;
     color: #acf4ac; 
 }
-
-@media (max-width: 450px) {
+@media (max-width: 350px) {
+    .slide-two .treats-b  h3, .slide-one .treats-b  h3{
+        font-size: 1.1rem;
+     }
+}
+@media (min-width: 350px) and (max-width: 450px) {
     .treats img {
         height: 100%; 
         width: 100%;  
