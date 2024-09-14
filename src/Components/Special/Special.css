@@ -16,7 +16,7 @@
     margin-top: 6rem;
     width: 18rem;
     height: 18rem;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 50%;
     border: #c129c1  4px solid;
 }
@@ -63,10 +63,12 @@
     right: 4rem;
 }
 
-@media (min-width: 0px) and (max-width: 360px) {
+ @media (min-width: 0px) and (max-width: 360px) {
+    .special{
+     padding:0 1rem;
+    }
    .special img {
         width: 10rem;
-        object-fit: contain;
         height: 10rem;
     }
     .special p {
@@ -87,9 +89,9 @@
         width: 5rem;                         
         left: 25%;
     }
-    .special-c img{
+    /* .special-c img{
         margin-left: 3rem;
-    }
+    } */
     .special-c h3 {
         margin-left: 6rem;
     }    
@@ -101,7 +103,6 @@
     }
     .special img {
          width: 12rem;
-         object-fit: contain;
          height: 12rem;
      }
      .special p {
@@ -144,7 +145,6 @@
     }
     .special img {
          width: 14rem;
-         object-fit: contain;
          height: 14rem;
      }
      .special p {
@@ -179,4 +179,4 @@
          margin-left: 4rem;
      }    
   
- }
+ } 

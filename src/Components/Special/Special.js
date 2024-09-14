@@ -2,6 +2,7 @@ import React from 'react'
 import wed from '../Assets/wed.jpg'
 import deliver from '../Assets/deliver.png'
 import puff from '../Assets/puff.jpg'
+import Ingredients from '../Assets/Ingredients.webp'
 import './Special.css'
 import './SpecialMedia.css'
 
@@ -22,7 +23,7 @@ function special() {
             <p>We are very swift and we deliver<br/> freshly made products to<br/> every customer on time.</p>
         </div>
         <div className="special-c">
-            <img src={puff} alt="" />
+            <img src={Ingredients} alt="" />
             <h3>Fresh &nbsp;Ingredients</h3>
             <p>Fresh ingredients are lifeblood of any<br/> confectionery and cocktail creation.<br/> 
             When browsing through our delightful<br/> assortment of confectionery and cocktail treats,<br/> 
