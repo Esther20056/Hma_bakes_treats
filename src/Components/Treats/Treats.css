@@ -59,7 +59,7 @@
     background: #6e116e;
     color: #acf4ac; 
 }
-@media (min-width: 0px) and (max-width: 350px) {
+@media (min-width: 0px) and (max-width: 370px) {
     .treats  img {
         height:100%;
         width: 100%;
@@ -84,57 +84,41 @@
         margin-bottom: 1.5rem;
      }
 }
-@media (min-width: 350px) and (max-width: 450px) {
+@media (min-width: 370px) and (max-width: 430px) {
     .treats img {
         height: 100%; 
         width: 100%;  
     }
-    .treats {
-        padding-top: 6.2rem;
-    }
-    .carousel-boby{
-        flex-basis: 80%;
-    }
     .carousel-boby .treats-b {
-        bottom:2%;
+        bottom:6%;
         gap: 0.5rem;
-        line-height: 0.7;
+        line-height: 0.8;
         padding-left: 1rem;
     }
     .slide-two .treats-b  h3, .slide-one .treats-b  h3{
-        font-size: 1.1rem;
+        font-size: 1.04rem;
      }
      .carousel-boby .treats-b-btn{
-        height: 2rem;
-        width: 4.7rem;
-        font-size: 0.7rem;
+        height: 2.3rem;
+        width: 5rem;
+        font-size: 0.8rem;
         font-weight: 700;
         margin-bottom: 1.5rem;
      }
 }
-@media (min-width: 450px) and (max-width: 556px) {
+@media (min-width: 430px) and (max-width: 500px) {
     .treats  img {
         height:100%;
         width: 100%;
     }
-    .treats {
-        padding-top: 6rem;
-    }
     .carousel-boby .treats-b {
-        bottom: 3%;
-        gap: 0.5rem;
-        line-height: 0.7;
+        bottom: 10%;
+        gap: 0.7rem;
         padding-left: 2rem;
     }
-    .carousel-boby .treats-b h2 {
-        font-size: 1.7rem;
+    .slide-two .treats-b h3, .slide-one .treats-b h3{
+        font-size: 1.16rem;
     }
-    .carousel-boby .treats-b h3 {
-        font-size: 1.2rem;
-    }
-    .slide-two .treats-b  h3{
-        font-size: 1.4rem;
-     }
      .carousel-boby .treats-b-btn {
         height: 2.5rem;
         width: 5.7rem;
@@ -143,113 +127,71 @@
         margin-bottom: 1.5rem;
      }
 }
-
-@media (min-width: 556px) and (max-width: 688px) {
+@media (min-width: 500px) and (max-width: 600px) {
     .treats  img {
         height:100%;
         width: 100%;
     }
-    .treats {
-        padding-top: 6rem;
-    }
     .carousel-boby .treats-b {
-        bottom: 9.5%;
-        gap: 0.5rem;
-        line-height: 0.7;
-        padding-left: 2.5rem;
+        bottom: 12%;
+        gap: 0.7rem;
+        padding-left: 2.2rem;
     }
-    .carousel-boby .treats-b h2 {
-        font-size: 2.3rem;
+    .slide-two .treats-b h3, .slide-one .treats-b h3{
+        font-size: 1.32rem;
     }
-    .carousel-boby .treats-b h3 {
-        font-size: 1.4rem;
-    }
-    .slide-two .treats-b  h3{
-        font-size: 1.8rem;
-     }
-     .carousel-boby .treats-b-btn {
-        height: 2.8rem;
-        width: 6.7rem;
-        font-size: 1rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-     }
-}
-@media (min-width: 688px) and (max-width: 800px) {
-    .treats  img {
-        height:80vh;
-        width: 100%;
-    }
-    .treats {
-        padding-top: 6rem;
-    }
-    .carousel-boby .treats-b {
-        bottom: 10%;
-        gap: 0.8rem;
-        line-height: 0.8;
-        padding-left: 3rem;
-    }
-    .carousel-boby .treats-b h2 {
-        font-size: 2.7rem;
-    }
-    .carousel-boby .treats-b h3 {
-        font-size: 1.6rem;
-    }
-    .slide-two .treats-b  h3{
-        font-size: 2.3rem;
-     }
      .carousel-boby .treats-b-btn {
         height: 3rem;
-        width: 7.7rem;
-        font-size: 1.2rem;
+        width: 6.5rem;
+        font-size: 1.05rem;
         font-weight: 700;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
      }
 }
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 768px) {
     .treats  img {
-        height:80vh;
+        height:100%;
         width: 100%;
     }
-    .treats {
-        padding-top: 6rem;
-    }
     .carousel-boby .treats-b {
-        bottom: 10%;
-        gap: 0.8rem;
-        line-height: 1;
-        padding-left: 4rem;
+        padding-left: 2.2rem;
     }
-    .carousel-boby .treats-b h2 {
-        font-size: 3.1rem;
+    .slide-two .treats-b h3, .slide-one .treats-b h3{
+        font-size: 1.7rem;
     }
-    .carousel-boby .treats-b h3 {
-        font-size: 2rem;
-    }
-    .slide-two .treats-b  h3{
-        font-size: 2.7rem;
-     }
      .carousel-boby .treats-b-btn {
-        height: 3.2rem;
-        width: 8.7rem;
-        font-size: 1.3rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
+        width: 8.5rem;
      }
 }
-@media (min-width: 1450px){ 
-    .carousel-boby .treats-b {
-        padding-top: 9rem;
+@media (min-width: 610px) and (max-width: 768px) {
+    .treats  img {
+        height:100% !important;
+        width: 100%;
     }
-    .carousel-boby .treats-b h2 {
-        font-size: 5rem;
-    }
-    .carousel-boby .treats-b h3 {
-        font-size: 3.2rem;
-    }
-    .slide-two .treats-b  h3{
-        font-size: 4rem;
-     }
-
 }
-  
+@media (min-width: 768px) and (max-width: 992px) {
+    .treats  img {
+        height:100% !important;
+        width: 100%;
+    }
+.carousel-boby .treats-b {
+    padding-left: 2.2rem;
+    bottom: 19%;
+}
+.slide-two .treats-b h3, .slide-one .treats-b h3{
+    font-size: 2.3rem;
+}
+}
+ @media (min-width: 992px) and (max-width: 1360px) {
+    .treats  img {
+        height:90% !important;
+        width: 100%;
+    }
+.carousel-boby .treats-b {
+    padding-left: 2.8rem;
+    bottom: 19%;
+}
+.slide-two .treats-b h3, .slide-one .treats-b h3{
+    font-size: 3.2rem;
+}
+} 
